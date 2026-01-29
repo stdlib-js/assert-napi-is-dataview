@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-napi-is-dataview",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Assert that a Node-API value is a Node-API DataView.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@stdlib/assert-napi-status-ok": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.2",
@@ -77,11 +77,6 @@
     "validation",
     "dataview"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
